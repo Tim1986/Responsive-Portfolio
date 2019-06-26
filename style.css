@@ -1,0 +1,635 @@
+body {
+    background-image: url("assets/images/interlaced.png");
+    margin: 0;
+    color: #777777;
+}
+
+.header1 {
+    background: #ffffff;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 960px;
+}
+
+.header2 {
+    background: #ffffff;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 720px;
+}
+
+.box {
+    width: 100vw;
+    background: #ffffff;
+}
+
+.otherpages {
+    float: right;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    padding-top: 10px;
+    position: relative;
+    bottom: 1vw;
+}
+
+.about {
+    float: right;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    padding-top: 10px;
+}
+
+.portfolio {
+    float: right;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.contact {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20x;
+    padding-top: 10px;
+    margin-right: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h1 {
+    clear: both;
+    color: #ffffff;
+    font-size: 28px;
+    background: #4aaaa5;
+    padding: 20px;
+    margin: 0;
+    width: 230px;
+    display: inline-block;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 15px;
+}
+
+hr {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+.vl {
+    border-left: 1px solid gray;
+    height: 10px;
+  }
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+li {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.sectionlist {
+    padding-left: 230px;
+}
+
+.mainpic {
+    width: 200px;
+    height: 200px;
+    padding-left: 15px;
+    float: left;
+    }
+
+.portpic1 {
+    width: 160px;
+    height: 130px;
+    position: relative;
+    left: 1.5%;
+}
+
+.portpic2 {
+    width: 160px;
+    height: 130px;
+    position: relative;
+    left: 3%;
+}
+
+.portpic3 {
+    width: 160px;
+    height: 130px;
+    position: relative;
+    right: 318px;
+    top: 150px;
+}
+
+.portpic4 {
+    width: 160px;
+    height: 130px;
+    position: relative;
+    right: 305px;
+    top: 150px;
+}
+
+.portpic5 {
+    width: 160px;
+    height: 130px;
+    position: relative;
+    left: 10px;
+    top: 162px;
+}
+
+.deer {
+    position: relative;
+    bottom: 210px;
+    left: 11px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 120px;
+    text-align: center;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.pig {
+    position: relative;
+    left: 186px;
+    bottom: 288px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 120px;
+    text-align: center;
+}
+
+.rainbow {
+    position: relative;
+    left: 10px;
+    bottom: 215px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 120px;
+    text-align: center;
+}
+
+.bread {
+    position: relative;
+    left: 187px;
+    bottom: 293px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 120px;
+    text-align: center;
+}
+
+.opera {
+    position: relative;
+    left: 10px;
+    bottom: 226px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 120px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container1 {
+    clear: both;
+    background: #ffffff;
+    margin: auto;
+    max-width: 960px;
+    padding-bottom: 15px;
+}
+
+.container3,
+.container2 {
+    clear: both;
+    background: #ffffff;
+    margin: auto;
+    max-width: 720px;
+}
+
+.words {
+    padding-left: 250px;
+}
+
+.footer {
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center; 
+    border-top: 10px solid #4aaaa5;
+}
+
+
+input {
+    width: 95%;
+    margin-left: 15px;
+}
+
+.namebox {
+    margin-bottom: 2%;
+}
+
+.emailbox {
+    margin-bottom: 2%;
+}
+
+.textbox {
+    width: 95%;
+    margin-left: 2%;
+    height: 150px;
+}
+
+.name {
+    margin-left: 2%;
+}
+
+.email {
+    margin-left: 2%;
+}
+
+.message {
+    margin-left: 2%;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 100vw;
+    }
+
+    .header1 {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .header2 {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        max-width: 90vw;
+    }
+
+    .container1 {
+        width: 60vw;
+        position: relative;
+        right: 15vw;
+    }
+
+    .container3,
+    .container2 {
+        width: 60vw;
+        position: relative;
+        right: 15vw;
+    }
+
+    .container2 {
+        height: 600px;
+    }
+
+    hr {
+        width: 57vw;
+    }
+
+    .portpic1,
+    .portpic2,
+    .portpic3,
+    .portpic4,
+    .portpic5,
+    .deer,
+    .pig,
+    .rainbow,
+    .bread,
+    .opera {
+        width: 24vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .portpic1 {
+        position: relative;
+        left: 17px;
+    }
+
+    .portpic2 {
+        position: relative;
+        left: 10vw;
+    }
+
+    .portpic3 {
+        position: relative;
+        left: 17px;
+        top: 28px;
+    }
+
+    .portpic4 {
+        position: relative;
+        top: 28px;
+        left: 10vw;
+    }
+
+    .portpic5 {
+        position: relative;
+        left: 17px;
+        top: 53px;
+    }
+
+    .deer {
+        position: relative;
+        bottom: 345px;
+        left: 17px; 
+    }
+
+    .pig {
+        position: relative;
+        bottom: 423px;
+        left: 333px; 
+    }
+
+    .rainbow {
+        position: relative;
+        bottom: 340px;
+        left: 17px; 
+    }
+
+    .bread {
+        position: relative;
+        bottom: 419px;
+        left: 333px;
+    }
+
+    .opera {
+        position: relative;
+        bottom: 336px;
+        left: 17px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+    }
+
+    .header2,
+    .header1 {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .header2 {
+        max-width: 100vw;
+    }
+
+    .container3,
+    .container2,
+    .container1 {
+        width: 96vw;
+        position: relative;
+        right: 0vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    h2 {
+        padding-left: 2vw;
+    }
+
+    hr {
+        width: 91vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .portpic1 {
+        width: 250px;
+        height: 150px;
+    }
+
+    .portpic2 {
+        width: 250px;
+        height: 150px;
+        position: relative;
+        left: 185px;
+    }
+
+    .portpic3 {
+        width: 250px;
+        height: 150px;
+    }
+
+    .portpic4 {
+        width: 250px;
+        height: 150px;
+        position: relative;
+        left: 185px;
+    }
+
+    .portpic5 {
+        width: 250px;
+        height: 150px;
+    }
+
+    .deer {
+        width: 250px;
+        top: -385px;
+    }
+
+    .pig {
+        width: 250px;
+        left: 439px;
+        top: -465px;
+    }
+
+    .rainbow {
+        width: 250px;
+        top: -360px;
+    }
+
+    .bread {
+        width: 250px;
+        left: 439px;
+        top: -437px;
+    }
+
+    .opera {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .header2,
+    .header1 {
+        margin-left: 0;
+        margin-right: 0;
+        float: left;
+    }
+
+    h1 {
+        width: 100vw;
+        margin: 0vw;
+        text-align: center;
+    }
+
+    .otherpages {
+        background-color: #ffffff;
+        float: none;
+        position: relative;
+        text-align: center;
+        bottom: 1vw;
+        width: 100vw;
+    }
+
+    .contact {
+        margin-right: 32vw;
+    }
+
+    .container2,
+    .container1 {
+        width: 94vw;
+        height: 800px;
+    }
+
+    .container3 {
+        width: 94vw;
+        height: 600px;
+    }
+
+    .container2 {
+        margin: 0;
+        margin-left: 3vw;
+        height: 2020px;
+    }
+
+    h2 {
+    }
+
+    hr {
+        width: 89vw;
+    }
+
+    .mainpic {
+        width: 84vw;
+        height: 70vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .words {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .sectionlist {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .portpic1 {
+        width: 89vw;
+        height: 350px;
+    }
+
+    .portpic2 {
+        width: 89vw;
+        height: 350px;
+        left: 17px;
+        margin-top: 20px;
+    }
+
+    .portpic3 {
+        width: 89vw;
+        height: 350px;
+        left: 17px;
+        margin-top: 20px;
+    }
+
+    .portpic4 {
+        width: 89vw;
+        height: 350px;
+        left: 17px;
+        margin-top: 20px;
+    }
+
+    .portpic5 {
+        width: 89vw;
+        height: 350px;
+        left: 17px;
+        margin-top: 20px;
+    }
+
+
+    .deer {
+        width: 89vw;
+        position: relative;
+        display: inline-block;
+        bottom: 345px;
+        top: -1580px;
+    }
+
+    .pig {
+        top: 100px;
+        width: 89vw;
+        left: 17px;
+        top: -1290px;
+
+    }
+
+    .rainbow {
+        width: 89vw;
+        left: 17px;
+        top: -965px;
+    }
+
+    .bread {
+        width: 89vw;
+        left: 17px;
+        top: -670px;
+    }
+
+    .opera {
+        width: 89vw;
+        left: 17px;
+        top: -350px;
+    }
+}
